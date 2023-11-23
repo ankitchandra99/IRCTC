@@ -15,6 +15,7 @@ public class FoodOrder {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer orderId;
+    private String name;
     private double price;
 
 
